@@ -8,7 +8,7 @@ Resources:
     Properties:
       Handler: lambda_handler
       Runtime: python3.7
-      CodeUri: './src/lambda_function.py'
+      CodeUri: './src/fone.py'
       # CodeUri: 's3://my-code-bucket/my-function.zip'
       # Event sources to attach to this function. In this case, we are attaching
       # one API Gateway endpoint to the Lambda function. The function is
