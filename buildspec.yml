@@ -14,8 +14,8 @@ version: 0.2
 phases:
   install:
   #   run-as: Linux-user-name
-  #   runtime-versions:
-  #     runtime: version
+    runtime-versions:
+      python: 3.7 
   #     runtime: version
     commands:
       - echo "Installing phase"
